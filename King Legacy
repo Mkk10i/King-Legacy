@@ -1,0 +1,119 @@
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/naypramx/Ui__Project/Script/XeNonUi", true))()
+library:CreateWatermark("Hub") -- Config แตกนะเดียวค่อยแก้รอเน็ตมาก่อน By MeowX#0001
+local CenterHubNo1 = library:CreateWindow("King Legacy",Enum.KeyCode.RightControl)
+local Tab = CenterHubNo1:CreateTab("Auto Farm")
+local Sector1 = Tab:CreateSector("Auto Farm","left")
+
+Sector1:AddLabel("Auto Farm level")
+Sector1:AddToggle("Auto Farm level",false,function(t)
+   print(t)
+end)
+
+
+local Tab = CenterHubNo1:CreateTab("Teleport")
+local Sector1 = Tab:CreateSector("Teleport","left")
+
+
+Sector1:AddButton("Button 1",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2074.53589, 48.3013992, -1614.12878, -0.699666142, -6.71077416e-08, -0.714469969, -3.49310203e-09, 1, -9.05058855e-08, 0.714469969, -6.08281852e-08, -0.699666142)
+end)
+
+Sector1:AddButton("Zombie lsland",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1259.00171, 16.1971569, 7333.00537, 0.876517415, -0, -0.481370181, 0, 1, -0, 0.481370181, 0, 0.876517415)
+end)
+
+Sector1:AddButton("Stone Rain Sea",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6437.32471, 122.380501, -1796.26538, 0.901452363, -0, -0.432878405, 0, 1, -0, 0.432878405, 0, 0.901452363)
+end)
+
+Sector1:AddButton("Soldier Town",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1723.13171, 227.889496, 397.766907, -0.269931346, -2.35247395e-08, 0.962879598, 7.44330677e-08, 1, 4.52980373e-08, -0.962879598, 8.38974401e-08, -0.269931346)
+end)
+
+Sector1:AddButton("Chef Ship",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-100.259361, 75.9841156, -48.4858818, -2.14576721e-06, -0.956288934, -0.292423457, -1, 2.14576721e-06, 3.27825546e-07, 3.27825546e-07, 0.292423457, -0.956289053)
+end)
+
+Sector1:AddButton("Snow lsland",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1070.31006, 15.6198997, 1363.19995, -0.984812617, 0, -0.173621148, 0, 1, 0, 0.173621148, 0, -0.984812617)
+end)
+
+Sector1:AddButton("Desert lsland",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1427.19641, 42.9848862, 2378.70215, 0.755562484, 1.05447944e-08, -0.655076563, -2.46067309e-08, 1, -1.22842572e-08, 0.655076563, 2.54008174e-08, 0.755562484)
+end)
+
+Sector1:AddButton("Skyland",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-48.470459, 400.189117, 4549.78662, 0.702824354, -0, -0.711363494, 0, 1, -0, 0.711363494, 0, 0.702824354)
+end)
+
+Sector1:AddButton("Bubbleland",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5795.21045, 249.597931, 3662.07056, 0.603327394, -4.58085431e-10, 0.797493637, 1.30897304e-09, 1, -4.15870227e-10, -0.797493637, 1.2948036e-09, 0.603327394)
+end)
+
+Sector1:AddButton("Lobby lsland",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2994.62744, 102.891464, 5348.93506, 0.999192715, -2.64754245e-08, -0.0401730165, 2.65331952e-08, 1, 9.04865238e-10, 0.0401730165, -1.97005323e-09, 0.999192715)
+end)
+
+Sector1:AddButton("WarlslandB",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6688.44238, 383.106689, 953.854675, 0.00667907391, -6.6334036e-09, 0.999977708, -1.71862879e-08, 1, 6.74834233e-09, -0.999977708, -1.72309775e-08, 0.00667907391)
+end)
+
+Sector1:AddButton("Stone Arena",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(9727.18945, 51.4013405, -3990.41431, -0.370265245, 0.92892611, -2.34246254e-05, -2.34246254e-05, -3.4570694e-05, -1, -0.92892611, -0.370265245, 3.45110893e-05)
+end)
+
+Sector1:AddButton("Fishland",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2366.46606, 321.825562, 9546.96094, 0.2191163, -2.91090938e-08, -0.975698769, -8.84157103e-08, 1, -4.96899446e-08, 0.975698769, 9.71549738e-08, 0.2191163)
+end)
+
+Sector1:AddButton("Shark lsland",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3554.02856, 41.0360756, 1433.34143, 0.0034211874, 0.819141388, -0.573581457, -0.999991179, 0.00419211388, 2.22623348e-05, 0.00242272019, 0.573576331, 0.81914854)
+end)
+
+
+
+
+
+
+local Sector1 = Tab:CreateSector("NPC","cross")
+
+Sector1:AddButton("Drago",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2126.95996, 48.423748, -1517.71582, 0.789979517, 0, 0.613133252, 0, 1, 0, -0.613133252, 0, 0.789979517)
+end)
+
+Sector1:AddButton("Triple Katana",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6227.82861, 26.9625893, -2124.25732, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+end)
+
+Sector1:AddButton("Katana",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2011.771, 48.232399, -1758.52686, 0.587982833, 1.02666e-08, -0.808873415, 2.6569797e-08, 1, 3.20064721e-08, 0.808873415, -4.03108587e-08, 0.587982833)
+end)
+
+Sector1:AddButton("Gacha",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2027.3739, 48.232399, -1738.63025, 0.592673838, -2.56801087e-08, -0.805442572, 4.14258672e-08, 1, -1.40057432e-09, 0.805442572, -3.25360716e-08, 0.592673838)
+end)
+
+Sector1:AddButton("Nishi",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2134.53149, 75.7580643, -1694.10779, 0.523116708, 5.63283535e-08, 0.852261066, -6.21589464e-08, 1, -2.79397607e-08, -0.852261066, -3.8359893e-08, 0.523116708)
+end)
+
+Sector1:AddButton("Haki",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5861.79199, 13.5367193, 3622.98535, -0.777326524, 5.27158051e-08, -0.629097402, 5.84813797e-08, 1, 1.15350698e-08, 0.629097402, -2.78239671e-08, -0.777326524)
+end)
+
+Sector1:AddButton("moon walk",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1700.21997, 41.1697998, 153.059998, -0.731557906, 1.27238176e-08, -0.681779325, 3.49589904e-08, 1, -1.88487803e-08, 0.681779325, -3.76232911e-08, -0.731557906)
+end)
+
+Sector1:AddButton("Fruit Shop",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2065.77881, 48.8166885, -1532.62122, -0.815213621, -1.18687097e-07, -0.579160392, -8.34402911e-08, 1, -8.7480835e-08, 0.579160392, -2.29902568e-08, -0.815213621)
+end)
+
+Sector1:AddButton("Baby Snake",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2474.57495, 48.1675606, -1948.53943, -0.351067454, -2.54144652e-08, 0.936350167, -8.47772874e-09, 1, 2.39634819e-08, -0.936350167, 4.74675299e-10, -0.351067454)
+end)
+
+Sector1:AddButton("Pipe",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5888.56201, 12.2401781, 3576.65259, -0.9137339, -6.01273626e-08, 0.406313151, -6.76409257e-08, 1, -4.1309125e-09, -0.406313151, -3.12579544e-08, -0.9137339)
+end)
+
